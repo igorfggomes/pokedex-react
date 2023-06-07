@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { Home, PokeDetails } from './pages';
 
 import './index.scss';
+import PokemonProvider from './context/PokemonContext';
 
 const router = createBrowserRouter([
   {
@@ -15,5 +16,9 @@ const router = createBrowserRouter([
 ]);
 
 export const AppRoutes = () => {
-  return <RouterProvider router={router} />;
+  return (
+    <PokemonProvider>
+      <RouterProvider router={router} />;
+    </PokemonProvider>
+  );
 };
