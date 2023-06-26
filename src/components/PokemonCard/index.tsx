@@ -5,11 +5,11 @@ import { Loader } from '../Loader';
 
 import styles from './styles.module.scss';
 
-interface Props {
+interface PokemonCardProps {
   url: string;
 }
 
-export const PokemonCard = ({ url }: Props) => {
+export const PokemonCard = ({ url }: PokemonCardProps) => {
   const { pokemon } = usePokemon(url);
 
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
