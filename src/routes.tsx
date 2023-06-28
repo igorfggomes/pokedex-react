@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { Home, PokeDetails } from './pages';
+import { Home, PokeDetail } from './pages';
 
 import './index.scss';
 import PokemonProvider from './context/PokemonContext';
@@ -11,7 +11,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/:pokeId',
-    element: <PokeDetails />,
+    element: <PokeDetail />,
   },
 ]);
 
