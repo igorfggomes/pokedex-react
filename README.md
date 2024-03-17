@@ -2,6 +2,9 @@
 #### Project: Pokedex React with [PokéAPI](https://pokeapi.co/)
 Developed by [Igor Franklin Gonçalves Gomes](https://github.com/igorfggomes)
 
+![image](https://github.com/igorfggomes/pokedex-react/assets/54295991/ba7b647b-0aad-4280-98c3-74c4ae852497)
+
+
 ## 💻 Front-end:
 
 ![vite](https://badges.aleen42.com/src/vitejs.svg)
